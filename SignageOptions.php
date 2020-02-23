@@ -53,10 +53,6 @@ $options = array(
 	# )
 	'repeating_slides' => array(
 		array(
-			'interval' => 4,
-			'orientation' => 'l',
-			'screens' => '1,2',
-			'left_pane' => 'http://localhost/'
 		)
 	)
 );
