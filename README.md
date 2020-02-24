@@ -23,7 +23,8 @@
 
 1. Please review all the code for errors. 
 1. Setup the external authorization program to protect the signage directories where you will place the upload and remove scripts.
-1. Install PHP with sqlite extensions if you have not already.
+1. Install Imagemagick if you have not already.
+1. Install PHP with sqlite and imagemagick extensions if you have not already.
 1. Move files and directories into place.  Make sure the web server has read permission for all files and write permission for the db, log, and files directories.  Create links to the SignageLibrary.php and SignageOptions.php if you seperate the PHP scripts in different directories.  The scripts remove.php and upload.php as well as the forms directory will likely go into your SSL directory, and the get.php and files directory into the root directory of your server.  The directories db and log can go some place other than the root directory of the server.  Typically you would rename them signage and put them in /var/db/signage and /var/log/signage.
 1.  Edit the SignageOptions.php file to indicate where all the files were moved to as well as the general signage options.
 1.  Edit the /forms/upload.php and /forms/remove.php to add your site's window dressing.
